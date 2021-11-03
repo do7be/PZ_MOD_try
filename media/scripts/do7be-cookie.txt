@@ -1,0 +1,23 @@
+module DO7BE_COOKIE
+{
+    imports
+    {
+        Base
+    }
+
+    item Do7beCookie
+    {
+        Type				=		Food,
+        DisplayName			=		Do7be Cookie,
+        Icon				=		Do7beCookie,
+        Weight				=		0.1,
+        HungerChange 		=		-200,
+        UnhappyChange	    =	    -200,
+        Carbohydrates = 200,
+        Proteins = 20,
+        Lipids = 80,
+        Calories = 160,
+        WorldStaticModel = Cookie,
+        CustomEatSound = EatingCrispy,
+    }
+}
